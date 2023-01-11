@@ -1,0 +1,46 @@
+.root {
+    background: linear-gradient(to right top, #001496, black);
+    padding: 30pt;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-top: 30pt;
+}
+
+.titleL {
+    text-align: start;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.5vh;
+    margin-top: 5pt;
+    margin-bottom: 30pt;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cylinder {
+    padding: 20pt;
+    border: 2pt solid white;
+    border-radius: 20pt;
+    margin: 15pt;
+}
+
+.mtb2 {
+    margin-top: 6pt;
+    margin-bottom: 6pt;
+}

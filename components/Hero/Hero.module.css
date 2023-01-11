@@ -1,0 +1,42 @@
+.root {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1 {
+    font-size: 5.5vh;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.5pt;
+    margin-bottom: 15pt;
+    word-spacing: 2.5pt;
+}
+
+.colored {
+    color: #1CF3D7;
+}
+
+.subText {
+    color: gray;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    font-size: large;
+}
+
+.subText {
+    color: black;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    font-size: large;
+
+}
+
+.icon {
+    background-color: black;
+    padding: 7pt;
+    border-radius: 100pt;
+    margin: 10pt;
+}

@@ -1,0 +1,30 @@
+.navbar {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbarItem {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navLink {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+/* .navLink:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+} */
