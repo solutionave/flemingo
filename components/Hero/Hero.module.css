@@ -40,3 +40,24 @@
     border-radius: 100pt;
     margin: 10pt;
 }
+
+@media screen and (max-width: 480px){
+
+    
+    .root  {
+
+        margin-left: 35px;
+        margin-right: 35px;
+        align-items: flex-start;
+    }
+    .h1{
+
+        text-align: left;
+    }
+    .subTextBlack{
+
+        text-align: center;
+        width: 100%;
+    }
+    
+}
