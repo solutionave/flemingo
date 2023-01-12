@@ -5,10 +5,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar px-5 pt-3 navbar-expand-md">
+      <div className="navbar px-5 pt-3 navbar-expand-md mb-5">
         <div className="navbar-brand">
           <Link className="nav-link" href={"/"}>
-            Flamingo
+            <img src="Flemingo.png"></img>
           </Link>
         </div>
         <button
@@ -25,22 +25,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
           <div className="nav-item">
-            <Link className="nav-link" href={"/features"}>
+            <Link className="nav-link text-secondary mr-4" href={"/features"}>
               Features
             </Link>
           </div>
           <div className="nav-item">
-            <Link className="nav-link" href={"/pricing"}>
+            <Link className="nav-link text-secondary mr-4" href={"/pricing"}>
               Pricing
             </Link>
           </div>
           <div className="nav-item">
-            <Link className="nav-link" href={"/testimonials"}>
+            <Link className="nav-link text-secondary mr-4" href={"/testimonials"}>
               Testimonials
             </Link>
           </div>
           <div className="nav-item">
-            <button className="Btn">Login</button>
+            <button className="Btn ">Login</button>
           </div>
           </ul>
         </div>
