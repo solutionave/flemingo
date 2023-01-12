@@ -12,13 +12,13 @@ import {
 const Navbar = () => {
   return (
     <nav className="navbar px-5 pt-3 navbar-expand-md ">
-      {/* <a className="navbar-brand navLogo" href="#">
+       <a className="navbar-brand navLogo" href="#">
         <div className={styles.brand}>
           <Link className={styles.navLink} href={"/"}>
             Flamingo
           </Link>
         </div>
-      </a> */}
+      </a> 
       <button
         className="navbar-toggler navbar-light"
         type="button"
