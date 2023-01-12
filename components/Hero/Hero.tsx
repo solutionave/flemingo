@@ -11,7 +11,7 @@ const Hero = () => {
             <span className={styles.subText}>We serve analytics of hosts based on your preferences</span>
             <br />
             <br />
-            <button className='Btn'>Get Started</button>
+            <button className='Btn py-3 px-4'>Get Started</button>
             <br />
             <br />
             <br />

@@ -10,11 +10,10 @@
 }
 
 .Btn {
-  background-color: black;
+  background-color: #111928;
   color: white;
   border: none;
-  padding: 9pt 18pt 9pt 18pt;
-  font-size: medium;
-  border-radius: 5pt;
-  
+  padding: 5pt 18pt;
+  font-size: small;
+  border-radius: 3pt;
 }
